@@ -1,1 +1,8 @@
-
+DeviceProcessEvents
+| where FileName =~ "schtasks.exe"
+| project
+    Timestamp,
+    DeviceName,
+    AccountName,
+    ProcessCommandLine
+| order by Timestamp desc
