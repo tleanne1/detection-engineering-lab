@@ -66,6 +66,33 @@ The detections within this repository are mapped to MITRE ATT&CK techniques to i
 
 ## Repository Structure
 
+```text
+detection-engineering-lab
+│
+├── README.md
+│
+├── detections
+│   ├── Encoded-PowerShell.md
+│   ├── Registry-Persistence.md
+│   ├── Credential-Dumping.md
+│   ├── Lateral-Movement.md
+│   └── Scheduled-Task-Persistence.md
+│
+├── kql
+│   ├── encoded-powershell.kql
+│   ├── registry-persistence.kql
+│   ├── credential-dumping.kql
+│   ├── lateral-movement.kql
+│   └── scheduled-task.kql
+│
+├── mitre-mapping
+│   └── ATTACK-Mapping.md
+│
+├── validation
+│   └── Detection-Validation-Guide.md
+│
+└── screenshots
+```
 
 
 ---
