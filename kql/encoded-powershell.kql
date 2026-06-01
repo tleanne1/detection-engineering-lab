@@ -1,1 +1,10 @@
-
+DeviceProcessEvents
+| where FileName =~ "powershell.exe"
+| where ProcessCommandLine contains "-enc"
+    or ProcessCommandLine contains "-encodedcommand"
+| project
+    Timestamp,
+    DeviceName,
+    AccountName,
+    ProcessCommandLine
+| order by Timestamp desc
