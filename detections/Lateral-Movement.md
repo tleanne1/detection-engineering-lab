@@ -51,3 +51,16 @@ Compromised accounts are often used to access additional systems after initial c
 - Disable compromised account
 - Isolate affected systems
 - Block malicious tools
+
+---
+
+## Detection Results
+
+![Lateral Movement Detection](../screenshots/lateralmovementdetectionresults.png)
+
+### Validation Summary
+
+- Detection executed successfully
+- Remote execution activity identified
+- Potential lateral movement detected
+- Mapped to MITRE ATT&CK T1021
