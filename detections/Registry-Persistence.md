@@ -50,3 +50,16 @@ HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 - Remove associated payload
 - Review additional persistence mechanisms
 - Isolate host if necessary
+
+---
+
+## Detection Results
+
+![Registry Persistence Detection](../screenshots/registrypersistencedetectionresults.png)
+
+### Validation Summary
+
+- Detection executed successfully
+- Registry Run Key modification identified
+- Persistence mechanism detected
+- Mapped to MITRE ATT&CK T1547.001
