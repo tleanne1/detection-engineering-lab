@@ -106,7 +106,7 @@ Threat Research → Detection Design → KQL Development → Validation → Tuni
 
 ## ATT&CK Coverage
 
-![MITRE ATT&CK Mapping](screenshots/MITRE-Mapping.png)
+![MITRE ATT&CK Mapping](screenshots/mitreatt&ckmapping.png)
 
 ---
 
