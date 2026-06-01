@@ -51,3 +51,16 @@ Attackers commonly target LSASS to obtain credentials and facilitate lateral mov
 - Isolate endpoint
 - Reset compromised credentials
 - Review privileged account activity
+
+---
+
+## Detection Results
+
+![Credential Dumping Detection](../screenshots/credentialdumpingdetectionresults.png)
+
+### Validation Summary
+
+- Detection executed successfully
+- Suspicious LSASS access identified
+- Potential credential dumping behavior detected
+- Mapped to MITRE ATT&CK T1003
