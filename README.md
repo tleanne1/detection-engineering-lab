@@ -110,6 +110,24 @@ Threat Research → Detection Design → KQL Development → Validation → Tuni
 
 ---
 
+## Detection Coverage Summary
+
+| Detection | ATT&CK |
+|------------|----------|
+| Encoded PowerShell | T1059.001 |
+| Registry Persistence | T1547.001 |
+| Credential Dumping | T1003 |
+| Lateral Movement | T1021 |
+| Scheduled Task Persistence | T1053 |
+
+Coverage Areas:
+- Execution
+- Persistence
+- Credential Access
+- Lateral Movement
+
+---
+
 ## Author
 
 Tracey Buentello
