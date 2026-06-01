@@ -1,1 +1,9 @@
-
+DeviceProcessEvents
+| where FileName in~ ("psexec.exe","wmic.exe")
+| project
+    Timestamp,
+    DeviceName,
+    AccountName,
+    FileName,
+    ProcessCommandLine
+| order by Timestamp desc
