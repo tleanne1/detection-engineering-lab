@@ -52,3 +52,16 @@ Search for PowerShell processes launched using:
 - Collect forensic evidence
 - Block indicators
 - Review additional affected hosts
+
+---
+
+## Detection Results
+
+![Encoded PowerShell Detection](../screenshots/encodedpowershelldetectionresults.png)
+
+### Validation Summary
+
+- Detection executed successfully
+- Encoded PowerShell command identified
+- Alert logic validated
+- Mapped to MITRE ATT&CK T1059.001
