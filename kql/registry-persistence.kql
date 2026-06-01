@@ -1,1 +1,9 @@
-
+DeviceRegistryEvents
+| where RegistryKey contains @"CurrentVersion\Run"
+| project
+    Timestamp,
+    DeviceName,
+    RegistryKey,
+    RegistryValueName,
+    InitiatingProcessFileName
+| order by Timestamp desc
