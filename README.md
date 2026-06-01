@@ -66,11 +66,7 @@ The detections within this repository are mapped to MITRE ATT&CK techniques to i
 
 ## Repository Structure
 
-detections/
-kql/
-mitre-mapping/
-validation/
-screenshots/
+
 
 ---
 
