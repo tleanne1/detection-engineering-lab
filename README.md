@@ -94,6 +94,19 @@ detection-engineering-lab
 └── screenshots
 ```
 
+---
+
+## Detection Engineering Workflow
+
+![Detection Lifecycle](screenshots/Detection-Lifecycle.png)
+
+Threat Research → Detection Design → KQL Development → Validation → Tuning → Deployment → Continuous Improvement
+
+---
+
+## ATT&CK Coverage
+
+![MITRE Coverage](screenshots/MITRE-Mapping.png)
 
 ---
 
