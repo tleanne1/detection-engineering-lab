@@ -48,3 +48,16 @@ Scheduled tasks are frequently used to maintain persistence and execute payloads
 - Remove malicious task
 - Remove associated payload
 - Investigate endpoint activity
+
+---
+
+## Detection Results
+
+![Scheduled Task Persistence Detection](../screenshots/scheduledtaskpersistencedetectionresults.png)
+
+### Validation Summary
+
+- Detection executed successfully
+- Suspicious scheduled task creation identified
+- Persistence mechanism detected
+- Mapped to MITRE ATT&CK T1053
