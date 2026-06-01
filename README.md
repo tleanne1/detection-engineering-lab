@@ -98,7 +98,7 @@ detection-engineering-lab
 
 ## Detection Engineering Workflow
 
-![Detection Lifecycle](screenshots/Detection-Lifecycle.png)
+![Detection Lifecycle](screenshots/detectionengineeringlifecycle.png)
 
 Threat Research → Detection Design → KQL Development → Validation → Tuning → Deployment → Continuous Improvement
 
